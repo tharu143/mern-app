@@ -19,7 +19,7 @@ app.use("/api/student", studentRoutes);
 app.use("/api/tutor", tutorRoutes);
 
 // MongoDB Connection
-const MONGO_URI = "mongodb://localhost:27017/mern-app"; // Replace with your MongoDB URI
+const MONGO_URI = "mongodb+srv://tharuntk143143:1234@navi.7n4g6.mongodb.net/"; // Replace with your MongoDB URI
 const PORT = 5000;
 
 mongoose
